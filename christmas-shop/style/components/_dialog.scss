@@ -1,0 +1,104 @@
+//.dialog {
+//  width: calc(100% - 16px);
+//  margin: auto;
+//  border: none;
+//  border-radius: 20px;
+//  max-width: 400px;
+//  padding: 0;
+//
+//}
+//
+//dialog[open] {
+//  animation: slide .3s ease-in-out;
+//}
+//
+//@keyframes slide {
+//  0% {
+//    opacity: 0;
+//    transform: translate(0, -15px);
+//  }
+//  100% {
+//    opacity: 1;
+//    transform: translate(0, 0);
+//  }
+//}
+//
+//dialog::backdrop {
+//  background: var(--overlay);
+//  cursor: pointer;
+//}
+//
+//.dialog__wrapper {
+//  background: var(--content-background);
+//  cursor: default;
+//}
+//
+//#dialog__button {
+//  position: absolute;
+//  background: transparent;
+//  border: none;
+//  outline: none;
+//  top: 20px;
+//  right: 20px;
+//  cursor: pointer;
+//}
+//
+//.main .dialog__content {
+//  height: 100%;
+//  border-radius: 20px 20px 0 0;
+//}
+//
+//.dialog__img {
+//  height: 230px;
+//  width: 100%;
+//  display: block;
+//  object-fit: cover;
+//}
+//
+//.rating__container {
+//  display: flex;
+//  flex-direction: column;
+//  gap: 8px;
+//}
+//
+//.rating__title {
+//  font-family: var(--font-family);
+//  font-weight: 600;
+//  font-size: 12px;
+//  line-height: 130%;
+//  letter-spacing: 0.05em;
+//  text-transform: uppercase;
+//  color: var(--dark);
+//}
+//
+//.rating__item {
+//  display: flex;
+//  flex-direction: row;
+//  gap: 12px;
+//  width: 100%;
+//}
+//
+//.rating__content {
+//  display: flex;
+//  flex-direction: row;
+//  justify-content: space-between;
+//  width: 100%;
+//}
+//
+//.rating__name, .rating__sum, .dialog__text {
+//  font-family: var(--font-family);
+//  font-weight: 400;
+//  font-size: 16px;
+//  line-height: 148%;
+//  color: var(--dark);
+//}
+//
+//.dialog__text {
+//  padding-bottom: 12px;
+//}
+//
+//.rating__stars {
+//  display: flex;
+//  flex-direction: row;
+//  gap: 8px;
+//}
